@@ -52,7 +52,7 @@ def reset():
 def store():
      li.delete(0, END)
      for n,l,a,p in datas:
-          li.insert(END, n,l)
+          li.insert(END, n)
           
      e1.delete(0,END)
      e2.delete(0, END)
